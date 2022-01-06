@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "esbuild src/index.tsx --servedir=public --outdir=public/src --bundle",
+    "build": "esbuild src/index.tsx --bundle --outfile=out.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sasaki-katsuharu",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^17.0.8",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "esbuild": "^0.14.10",
