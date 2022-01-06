@@ -4,7 +4,7 @@
   "description": "first esbuild app",
   "main": "index.js",
   "scripts": {
-    "dev": "esbuild src/index.jsx --servedir=public --outdir=public/src --bundle",
+    "dev": "esbuild src/index.tsx --servedir=public --outdir=public/src --bundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sasaki-katsuharu",
